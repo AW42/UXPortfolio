@@ -1,0 +1,448 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.reduce-margin2 {
+  margin: 75px 105px 55px 105px;
+  display: flex;
+  justify-content: center;
+}
+
+.overview-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #454347;
+
+    
+  }
+  
+  .overview {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #454347;
+    line-height:1.5;
+    word-spacing: 0.6px;
+   
+  }
+
+
+  .p-3a {
+
+    font-family: 'Poppins', sans-serif;
+    padding-right: 60px;
+    padding-left: 18px;
+    /* background-color: pink; */
+    
+  }
+  
+  
+  .p-3a h2 p{
+  
+    font-family: 'Poppins', sans-serif;
+    
+   
+   
+    
+  }
+
+  .p-3b{
+
+    font-family: 'Poppins', sans-serif;
+  
+    
+  }
+  
+  
+  .p-3b h2 p{
+  
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    
+  }
+  
+  
+  
+  .responsibilities-heading,
+  .timeline-heading {
+    
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    
+    
+  }
+
+  .timeline-heading{
+    margin-top: 30px;
+  }
+
+  
+  
+  .responsibilities li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    list-style: none;
+    margin-bottom: 2px;
+    color:  #454347;
+   
+  }
+  
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+
+ /* Media queries for tablet screens */
+@media screen and (max-width: 991px) {
+  .reduce-margin2 {
+    margin: 30px;
+  }
+  /* .p-3a {
+    padding-right: 20px;
+  } */
+
+  .p-3b{
+
+    padding-left: 18px;
+
+  }
+
+  .p-3c{
+
+    margin-top: 50px;
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+  .challenge-heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #454347;
+  }
+
+
+  .p-3c{
+
+    /* background-color: pink; */
+    
+    padding-left: 18px;
+  }
+
+
+  .challenge{
+
+    margin-top: 50px;
+  }
+
+  .challenge-description{
+
+    max-width: 1200px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #454347;
+    line-height:1.5;
+    word-spacing: 0.6px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  
+  .img-fluid2{
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 0;
+  
+  }
+
+  .reduce-margin3 {
+    margin: 35px 105px 105px 105px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+  @media (max-width: 767.98px) {
+    .reduce-margin3 {
+      margin: 20px;
+    }
+    
+    .img-fluid2 {
+      max-width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .reduce-margin3 {
+      margin: 35px;
+    }
+    
+    .img-fluid2 {
+      max-width: 100%;
+      max-height: 400px;
+    }
+  }
+
+  .findings-description{
+
+    max-width: 1200px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #454347;
+    line-height:1.5;
+    word-spacing: 0.6px;
+  }
+
+
+  .my-custom-class {
+    font-size: 0.8rem; /* Change the font size value as per your requirement */
+  }
+  
+  .my-icon {
+    margin-right: 10px;
+    color: #454347 !important;
+  }
+  
+
+ 
+
+  .reduce-margin3 {
+    margin: 75px 105px 100px 105px;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+
+
+
+ .prevButton{
+
+  /* background-color: pink; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+ }
+
+
+
+ .nextButton{
+
+  /* background-color: skyblue;
+  background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+ }
+
+
+
+
+ .slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-image {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  border-top: 1px #2b5d47;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .reduce-margin3 {
+    margin: 75px 15px 100px 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .slider-image {
+    width: 150%;
+    height: auto;
+    margin: 0;
+  } */
+
+  .prevButton,
+  .nextButton {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  .prevButton {
+    left: 0;
+  }
+  
+  .nextButton {
+    right: 0;
+  }
+
+  .p-3c{
+
+    /* background-color: pink; */
+    
+    padding-left: 0;
+  }
+
+ 
+}
+
+
+
+
+
+@media (max-width: 767px) {
+  .embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .embed-responsive:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+
+  .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
+
+
+@media (max-width: 767px) and (min-width: 543px) {
+  .reduce-margin3 {
+    margin: 75px 15px 100px 15px;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Add relative positioning to the container */
+  }
+
+  .prevButton,
+  .nextButton {
+    display: block;
+    position: absolute; /* Change back to absolute positioning */
+    top: 120px; /* Adjust the top value as needed */
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .prevButton {
+    left: 0;
+  }
+
+  .nextButton {
+    right: 0;
+  }
+
+  .p-3c {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 542px){
+  .reduce-margin3 {
+    margin: 75px 15px 100px 15px;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Add relative positioning to the container */
+  }
+
+  .prevButton,
+  .nextButton {
+    display: block;
+    position: absolute; /* Change back to absolute positioning */
+    top: 80px; /* Adjust the top value as needed */
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .prevButton {
+    left: 0;
+  }
+
+  .nextButton {
+    right: 0;
+  }
+
+  .p-3c {
+    padding-left: 0;
+  }
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .embed-responsive:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+
+  .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
