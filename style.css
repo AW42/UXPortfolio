@@ -1,4 +1,14 @@
+#scrollBtn {
+ color: #386d8a; /* Replace #ff0000 with the desired background color */
+}
 
+.coloring {
+  background-color: #386d8a; /* Set your custom color here */
+  color: #ffffff; /* Set the text color for the button */
+  
+ 
+  text-decoration: none;
+}
 
 .navbar-brand{
   padding-left: 2rem;
