@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#scrollBtn").on("click", function() {
       $("html, body").animate({
-        scrollTop: $(".new-section").offset().top// adjust the value here
+        scrollTop: $(".img-container").offset().top// adjust the value here
       }, 500);
     });
   });
@@ -48,3 +48,15 @@ $(document).ready(function() {
       }
     }
   });
+
+  // Scroll to top
+// document.addEventListener("DOMContentLoaded", function () {
+//   const scrollToTopButton = document.getElementById("scrollToTopButton");
+
+//   scrollToTopButton.addEventListener("click", function () {
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth",
+//     });
+//   });
+// });
